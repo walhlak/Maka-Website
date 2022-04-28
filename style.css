@@ -1,0 +1,67 @@
+.Papaj {
+  margin-top: 20px;
+}
+
+#Textp {
+  display: block;
+  float: right;
+  margin-left: auto;
+  font-size: 30px;
+  margin-right: 500px;
+  margin-left: -700px;
+}
+
+.Bbutton {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Impact;
+  font-size: 19px;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-shadow: 2px 4px 0px #2f6627;
+
+  transform: scale(1);
+  transition: transform 0.3s;
+  box-shadow: 0 0 56px 2px black;
+}
+.Bbutton.hidden {
+  display: none;
+}
+.Papaj_img {
+  box-shadow: 0 0 52px 2px rgb(15, 15, 15);
+  width: 532;
+  height: 232;
+  margin: 30px 10px;
+}
+#DEJV {
+  text-align: center;
+  margin: 200px auto;
+}
+.Papaj.hidden {
+  display: none;
+}
+
+.Bbutton:hover {
+  background-color: #f61787;
+  transform: scale(1, 1.2);
+}
+.Bbutton:active {
+  position: relative;
+  top: 1px;
+  background-color: #000000;
+}
+body {
+  background: linear-gradient(75deg, red, blue);
+  min-height: 98vh;
+
+  overflow-y: hidden;
+  overflow-y: hidden;
+  font-family: Impact;
+  text-align: center;
+  color: #e730ff;
+  text-shadow: 2px 4px 0px #4d006c;
+}
